@@ -505,6 +505,7 @@ button:focus-visible,a:focus-visible {
     font-size: 16px;
     line-height: 1.85;
     color: #dedfd8;
+    text-align: justify;
 }
 
 .about-text.muted {
