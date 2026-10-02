@@ -3801,3 +3801,38 @@ body {
         transition-duration: .01ms;
     }
 }
+
+@media (max-width: 650px) {
+    .nav .brand {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: auto;
+        line-height: 1;
+        white-space: nowrap;
+        font-size: 26px;
+    }
+
+    .nav .brand-mark {
+        display: block;
+        flex: 0 0 48px;
+        width: 48px;
+        height: 32px;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+/* Keep desktop navigation links and the contact button on one vertical axis */
+@media (min-width: 651px) {
+    .nav nav {
+        align-items: center;
+    }
+
+    .nav nav .nav-cta {
+        display: inline-flex;
+        align-items: center;
+        line-height: 1;
+    }
+}
